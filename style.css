@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding-top: 5%;
+}
+
+.dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: beige;
+}
+ul{
+    list-style: none;
+}
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
