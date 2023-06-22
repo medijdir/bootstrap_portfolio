@@ -1,42 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  
-</head>
-<body>
-  <Header>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand mb-0 h1 text-primary" href="#">My Logo</a>
-             <ul class="navbar-nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              </li>
-            </Header>
+body {
+  min-height: 100vh;
+}
 
-            
-            <section id="corps">
-                <div class=""bg-img" style="background-image: url(./img/Headerbg.svg);"
-                <div class="contenaire">
-        <h1> I'm Mehdi jdir. Glad to see you !</h1>
-        <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a 
-            project you need coded, don’t hesitate to contact me.</p>
-        </div>
-            </section>  
-            
-          </div>
-       
-      </nav>
-      <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+body {
+  background-image: url(./img/Headerbg.svg);
+  background-size: cover;
+}
